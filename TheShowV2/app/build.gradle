@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services'
+android {
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+
+    }
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "aie.amg.theshow"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 2
+        versionName '2.0'
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    signingConfigs {
+        debug {
+            storeFile file("F:/mykey.jks")
+            keyAlias 'ali'
+            keyPassword "01021624394"
+            storePassword "01021624394"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.navigation:navigation-fragment:2.2.1'
+    implementation 'androidx.navigation:navigation-ui:2.2.1'
+    implementation "com.mikepenz:materialdrawer:6.1.2"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta4'
+    implementation 'com.github.medyo:fancybuttons:1.9.1'
+    implementation 'com.google.android.material:material:1.2.0-alpha05'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+
+    implementation "androidx.room:room-runtime:2.2.5"
+    implementation 'androidx.preference:preference:1.1.0'
+    annotationProcessor "androidx.room:room-compiler:2.2.5"
+    androidTestImplementation "androidx.room:room-testing:2.2.5"
+
+    annotationProcessor 'android.arch.persistence.room:compiler:1.1.1'
+    androidTestImplementation 'androidx.test:runner:1.3.0-alpha05'
+    implementation 'com.github.wtekiela:opensub4j:0.2.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha05'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    testImplementation 'junit:junit:4.13-rc-1'
+    implementation 'com.google.android.gms:play-services-ads:19.0.0'
+
+    implementation 'com.google.firebase:firebase-analytics:17.3.0'
+
+    implementation 'com.google.firebase:firebase-messaging:20.1.4'
+    implementation "com.hendraanggrian.recyclerview:recyclerview-expandable:0.1"
+    implementation 'com.thoughtbot:expandablerecyclerview:1.3'
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
+}

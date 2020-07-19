@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="aie.amg.theshow.activity.SupportUsActivity">
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+</menu>

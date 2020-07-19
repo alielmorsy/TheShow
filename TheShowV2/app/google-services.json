@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1084562040991",
+    "firebase_url": "https://theshow-d5894.firebaseio.com",
+    "project_id": "theshow-d5894",
+    "storage_bucket": "theshow-d5894.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084562040991:android:911f133018a0ef43c71aaa",
+        "android_client_info": {
+          "package_name": "aie.amg.theshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084562040991-6d3jfs4pqbjch13nldavh8flrq6r4d85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "aie.amg.theshow",
+            "certificate_hash": "29ca6078a228dfb2a3b3f5aad77e628b1f5ecd6f"
+          }
+        },
+        {
+          "client_id": "1084562040991-f07vsmmobkb5sef8vbfh8mucotghsn8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDqrxRVwHics3_A6BUAgcbCaKwj_YQHBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084562040991-f07vsmmobkb5sef8vbfh8mucotghsn8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

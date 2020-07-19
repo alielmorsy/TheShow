@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">TheShow</string>
+    <string name="download_text" translatable="false">%02.02f/%02.02f</string>
+    <string name="download_done_lib">تم تحميل المكتبه بنجاح</string>
+    <string name="download_failed">فشل تحميل المكتبه</string>
+    <string name="lib_failed_message">فشل تحميل المكتبه يمكن المحاوله مره اخرئ اول الذهاب اللي الاعدادات وتفعيل تشغيل علي mx player</string>
+    <string name="series">مسلسلات</string>
+    <string name="news">احدث الاضافات</string>
+    <string name="moveis">أفلام</string>
+    <string name="drawer_list">قوائم</string>
+    <string name="best_movies">أفضل أفلام</string>
+    <string name="best_series">أفضل مسلسلات</string>
+    <string name="suggest_today">المقترح اليوم</string>
+    <string name="animy">انميشن</string>
+    <string name="new_anim_series">المسلسلات</string>
+    <string name="new_anim_movies">افلام الأنمي الجديده</string>
+    <string name="try_again">اعاده المحاوله</string>
+    <string name="about_us">حول</string>
+    <string name="settings">الاعدادات</string>
+    <string name="title_activity_settings">الاعدادات</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">التحميل</string>
+
+    <string name="adm_download_pref">تحميل عن طريق برنامج خارجي</string>
+    <string name="mxplayer_play_pref">تشغيل تلقائي في برنامج mx player</string>
+    <string name="player_switich_on_pref">عند تشعيل فيديو فيتم فتح في mx player مباشره</string>
+    <string name="player_switch_off">عند تفعيلها سيتم فتح mx player مباشره عند  تشغيل فيديو</string>
+    <string name="appear">المظهر</string>
+    <string name="list_mode_pref">عرض البيانات في شبكه</string>
+    <string name="new_episodes">أحدث  الحلقات</string>
+    <string name="season_text">الموسم  %d</string>
+    <string name="episode_text">الحلقه %d</string>
+    <string name="about_message">أفضل تطبيق عربي للأفلا والمسلسلات بأحسن حوده وأقل مساحه</string>
+    <string name="version">الأصدار:</string>
+    <string name="facebook_page">زور صفحتنا علي الفيس بوك</string>
+    <string name="generate_link_message">من فضلك انتظر ختي يتم صنع لينك التحميل / المشاهده</string>
+    <string name="others">ّاّخري</string>
+    <string name="request">طلب فيلم غير موجود</string>
+    <string name="support_us">أدمعنا</string>
+
+    <string name="request_title">
+        "Here you can request anything you can\'t found it in our list be write the name of it and any thing you know about it"
+        "like Type(Tv Show - Movie ) language any thing but name is the important"
+        "if you can\'t remember the name you can't write one of the cast anything like story anything"
+    </string>
+    <string name="title_activity_support_us">SupportUs</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="interstitial_ad_sample">"تستطيع من هنا دعمنا عن طريق مشاهده اعلانات والضغط علي الزر بالأسفل لمشاهده اعلان "</string>
+    <string name="start_level">Level 1</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3924327175857175/3034334947</string>
+    <string name="next_level">مشاهده اعلان صغير</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="info_title">معلومات حول العرض</string>
+    <string name="download_title">التحميل</string>
+    <string name="episodes_count">%d حلقه</string>
+    <string name="seasons_count">%d مواسم</string>
+    <string name="movie">فيلم</string>
+    <string name="summary">ملخص</string>
+    <string name="types">النوع</string>
+    <string name="title_activity_type">البحث حسب النوع</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="failed_load">فشل الحصول علي البيانات</string>
+    <string name="retry">اعادده المحاوله</string>
+    <string name="may_like_you">أحتمال يعجبك</string>
+    <string name="no_similar">"لأ يوجد عروض متشابه او يوجد مشكله في الانترنت "</string>
+    <string name="faield_load_ad">قشل تحميل الأعلان</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="downloads">التحميلات</string>
+    <string name="download_size">الحجم: %s</string>
+    <string name="duration_text">الوقت %s</string>
+    <string name="downloaded_extra_data">%s . %s . %s</string>
+    <string name="share_app">مشاركه التطبيق</string>
+    <string name="type_download">التحميل عن طريق يرنامج التحميل الخاص بالجهاز</string>
+    <string name="cant_play_video">أسف ولكن سيرفر التحميل الخاص بهذا الملف لا يقبل المشاهده وايقاف مؤقت للتحميل</string>
+    <string name="not_profit_page" >ملحوظه مهمه هذه الصفحه ليس الهدف منها الربح ولكن سيرفر التخزين لا يسمح بالتحميل من غير \nsecurity question وبعد محاولات عديده كانت هذه الطريقه كانت الافضل حتي افضل من اني ارفع الملف علي موقع واعطيك لينك التحميل </string>
+    <string name="watch">مشاهده</string>
+    <string name="download">تحميل</string>
+</resources>

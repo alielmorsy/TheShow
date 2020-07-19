@@ -1,0 +1,4 @@
+::cmd script
+
+"C:\Program Files (x86)\ffmpegyag\bin\ffmpeg-hi10-heaac.exe" -i "E:\cneima\مسلسلات\Dr.Stone 720p x265 Dual Audio\Mr.Deadpool] Dr.Stone Ep-01 720p x265 Dual Audio.mkv" -strict experimental -f matroska -map_chapters -1 -map 0:0 -map 0:1 -map 0:2 -map 0:3 -map 0:4 -map 0:5 -map 0:6 -map 0:7 -map 0:8 -map 0:9 -map 0:10 -map 0:11 -c:s:0 srt -c:s:1 srt -c:s:2 copy -c:s:3 copy -c:s:4 copy -c:s:5 copy -c:s:6 copy -c:s:7 copy -c:s:8 copy -c:a:0 libfdk_aac -b:a:0 96k -c:a:1 aac -b:a:1 192k -c:v:0 libvpx-vp9 -mbd:v:0 rd -mbcmp:v:0 rd -cmp:v:0 rd -precmp:v:0 rd -subcmp:v:0 rd -trellis:v:0 1 -filter:v:0 "scale=1024:576" -y "E:\cneima\مسلسلات\Dr.Stone 720p x265 Dual Audio\Mr.Deadpool] Dr.Stone Ep-01 720p x265 Dual Audio.mkv"
+

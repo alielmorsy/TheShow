@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+
+        <aie.amg.theshow.views.SwagPoints xmlns:swagpoints="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/progress"
+            android:layout_width="120dp"
+
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            swagpoints:arcColor="@color/color_arc"
+            swagpoints:arcWidth="4dp"
+            swagpoints:enabled="false"
+            swagpoints:max="1000"
+
+            swagpoints:progressColor="@color/color_progress"
+            swagpoints:progressWidth="5dp"
+            swagpoints:step="500"
+            swagpoints:text="Connecting"
+
+            swagpoints:textColor="@color/secondaryText"
+            swagpoints:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_toStartOf="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/progress"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="8dp"
+                android:padding="1dp"
+
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="8dp"
+                android:padding="1dp" />
+
+            <RelativeLayout
+                android:id="@+id/series"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/season"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="12dp"
+                    android:padding="3dp" />
+
+                <TextView
+                    android:id="@+id/episode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:padding="3dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_menu" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

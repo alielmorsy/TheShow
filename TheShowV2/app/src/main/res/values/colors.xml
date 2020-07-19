@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1D222C</color>
+    <color name="colorPrimaryDark">#FA000000</color>
+    <color name="colorAccent">#00BEFF</color>
+    <color name="primaryText">#F3FFFFFF</color>
+    <color name="secondaryText">#F3D6D4D4</color>
+    <color name="background">#1b262c</color>
+    <color name="selected">#9DAFC5</color>
+    <color name="cardBackground">#233640</color>
+
+    <!-- Circular ProgressView -->
+    <color name="color_arc">@android:color/white</color>
+    <color name="color_text">@android:color/white</color>
+    <color name="color_progress">#58D4DE</color>
+</resources>
