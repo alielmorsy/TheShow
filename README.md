@@ -7,7 +7,7 @@ The Show is an movies application primary is developed to help people to downloa
 
 # ScreenShots
 
-![List Contains Movies](assests/movies-list.png)
+![List Contains Movies](assests/movies_list.png)
 `
 
 ![All Show data from rating descripation and any similar](assests/show-data.png)
